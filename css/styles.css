@@ -1,0 +1,36 @@
+  /* Base Styles */
+
+html,
+body {
+  font-family: 'Merriweather', serif;
+  width: 100%;
+  margin: 0;
+  background-color: #FFFFFF;
+}
+
+header {
+  background-color: #2D3945;
+  margin: auto;
+  font-size: .75em;
+  padding: 25px;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.25em;
+
+}
+
+footer {
+  color: gray;
+  font-style: italic;
+  text-align: center; 
+}
+/* button color: #4EBBB5 */
