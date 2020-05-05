@@ -13,12 +13,12 @@ body {
   font-family: 'Merriweather', serif;
   line-height: 1.5;
   color: black;
-  background-color: #fff;
+  background-color: #f8f9f9;
   font-size: 14px;
 }
 
 header {
-  background-color: #2D3945;
+  background-color: #46698B;
   margin: auto;
   padding: 25px;
 }
@@ -37,13 +37,13 @@ h2 {
 }
 
 p {
-  color: gray;
+  color: #2D3945;
   text-align: center;
 }
 
 hr {
   border: none;
-  border-top: 8px double #333;
+  border-top: 8px double #46698B;
   padding-bottom: 10px;
 }
 
@@ -65,10 +65,10 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 select {
-  background-color: #EFF0F1;
+  background-color: #fff;
   line-height: 3;
   border-radius: 5px;
-  border: 1px solid #EFF0F1;
+  border: 1px solid #fff;
   margin: 10px 0;
   width: 100%;
 }
@@ -81,7 +81,7 @@ select {
 }
 
 label {
-  color: gray;
+  color: #2D3945;
 }
 
 select[name="user_state"] {
@@ -92,7 +92,7 @@ select[name="user_state"] {
 
 #hr2 {
   border: none;
-  border-top: 2px solid #333;
+  border-top: 2px solid #46698B;
 }
 
 input[type="checkbox"],
@@ -102,7 +102,7 @@ input[type="radio"] {
 
 textarea {
   padding: 30px;
-  background-color: #EFF0F1;
+  background-color: #fff;
   border-radius: 5px;
   border: 0;
   width: 100%;
@@ -127,6 +127,7 @@ label[for="other_topics"] {
   padding: 20px;
   margin-top: 20px;
   font-weight: bold;
+  transition-duration: .4s;
 }
 
 footer {
@@ -158,6 +159,10 @@ input[type="radio"]:checked + label {
   font-weight: bold;
 }
 
+.btn:hover {
+  background-color: #4eafbb;
+}
+
 /* Media Queries: Mobile ----- */
 
 @media (min-width: 320px) {
@@ -168,14 +173,12 @@ input[type="radio"]:checked + label {
     padding-bottom: 10px;
   }
 
-
 }
 
 
 /* Media Queries: Desktop ----- */
 
 @media (min-width: 768px) {
-
 
 form {
   width: 80%;
@@ -192,6 +195,7 @@ form {
 .form-field {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .form-field > label {
@@ -208,6 +212,5 @@ select {
 .newsletter-format {
   width: 60%;
 }
-
 
 }
