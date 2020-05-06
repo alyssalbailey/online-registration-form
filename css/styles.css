@@ -224,8 +224,8 @@ select {
   width: 60%;
 }
 
-input[id="zipcode"]:last-child {
-  width: 25%;
+input[id="zipcode"] {
+  flex: 0 0 30%;
 }
 
 
