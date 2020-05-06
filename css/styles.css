@@ -176,6 +176,14 @@ input[type="radio"]:checked + label {
     padding-bottom: 10px;
   }
 
+  label[for="zipcode"] {
+    display: block;
+  }
+
+  input[id="zipcode"]:last-child {
+    width: 60%;
+  }
+
 }
 
 
@@ -215,5 +223,10 @@ select {
 .newsletter-format {
   width: 60%;
 }
+
+input[id="zipcode"]:last-child {
+  width: 25%;
+}
+
 
 }
